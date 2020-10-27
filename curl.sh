@@ -1,0 +1,15 @@
+curl http://localhost:5000/matches -X POST -H "content-Type:application.json" -d '{"first_team_name":"India",
+"first_team_score": 100,
+"first_team_fours": 6,
+"first_team_sixes": 3,
+"first_team_wickets": 7,
+"second_team_name": "England",
+"second_team_score": 96,
+"second_team_fours": 12,
+"second_team_sixes": 5,
+"second_team_wickets": 10,
+"winning_team_name": "England",
+"date_played": "2020-07-15",
+"man_of_the_match": "Virat Kohli",
+"victory_margin": "4 runs"
+ }'
